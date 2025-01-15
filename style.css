@@ -22,7 +22,6 @@ body {
 /*HEADER*/
 header {
     background-color: var(--header-bg-color);
-    display: flex;
 }
 
 .headerTitle {
