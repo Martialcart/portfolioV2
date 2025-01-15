@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nor">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
     <title>Jan Olav</title>
 </head>
-    <header>
-	<h1>Jan Olav</h1>
-	<img src="img/hamburger.svg" alt="no svg">
-	<nav></nav> 
+    <header id=me>
+	<h1 class="headerTitle">Jan Olav</h1>
+	<div id="hamburger" class="topLock flexDown">
+	    <img  src="img/hamburger.svg" alt="menu button">
+	    <nav id="mainNavigation" class="navigation hidden">
+		<a class="navLink" href="index.html">Meg</a>
+		<a class="navLink" href="#projects">Prosjekt</a>
+		<a class="navLink" href="">linker</a>
+		<a class="navLink" href="">linker</a>
+	    </nav> 
+	</div>   
+    </header>
+    <main>
+	<section class="fullpage">
+	    <h2>Meg</h2>
+	    <p>
+Hei! Mitt navn er Jan Olav, en utvikler med fullført bachelor i programmering fra UiB.
+I løpet av studiet var Java hovedspråk, men fikk også erfaring med assembly og maskinlæring i Python.
+Etter fullført bachelor har jeg fokusert på webutvikling, med utspring i flere prosjekter på Github som, chatpå Github -bot og et touch-typing program.
+I tillegg har jeg 16 års erfaring fra kundeservice, noe som har gitt meg verdifull erfaring innenfor samarbeid og ledelse.
+På fritiden interesserer jeg meg for 3D-printing, musikk og dataspill.
+	    </p>
+	</section>
+	<section id="projects" class="fullpage">
+	    <h2>Prosjekt</h2>
+	    <p>
+	        Lorem corrupti nobis totam vero tempora. Ducimus optio tenetur rerum iure impedit Quasi odit molestias deserunt blanditiis numquam, incidunt Accusantium nam ipsum nisi obcaecati facilis? Aspernatur quisquam iusto amet numquam?
+	    </p>
+	</section>
+	
+    </main>
     <footer>
     </footer>
 </body>

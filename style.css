@@ -3,7 +3,9 @@
     /*colors*/
     --body-bg-color: black;
     --body-font-color: white;
-    --header-bg-color: grey;
+    --header-bg-color: black;
+    --navigation-color: black;
+    --link_font_color: white;
     --main-bg-color: black;
 }
 
@@ -13,17 +15,51 @@ body {
     color: var(--body-font-color);
 }
 
+.hidden{
+   display: none; 
+}
+
 
 /*HEADER*/
 header {
     background-color: var(--header-bg-color);
+    display: flex;
+    justify-content:  space-between;
 }
 
+header div {
+    background-color: var(--navigation-color);
+    border-radius: 5px;
+}
+
+.headerTitle {
+    margin: 0;
+    margin-left: 1em;
+}
+
+.flexDown {
+    display: flex;
+    flex-direction: column;
+}
+
+.topLock {
+    position: fixed;
+    right: 1em;
+    top: 1em;
+}
+
+.navLink {
+   display: flex;
+   text-decoration-line: none; 
+   text-decoration-color: none; 
+   color: var(--link-color);
+   min-height: 10mm;
+   min-width: 10mm;
+   justify-content: space-around;
+   align-items: center;
+}
 
 /*MAIN*/
-main {
-    background-color: var(--main-bg-color);
-}
 
 .fullpage {
     height: 100vh;
