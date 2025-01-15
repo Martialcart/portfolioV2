@@ -2,10 +2,10 @@
 :root {
     /*colors*/
     --body-bg-color: black;
-    --body-font-color: white;
+    --body-font-color: mintCream;
     --header-bg-color: black;
     --navigation-color: black;
-    --link_font_color: white;
+    --link_color: AliceBlue;
 }
 
 /*BODY*/
@@ -23,7 +23,6 @@ body {
 header {
     background-color: var(--header-bg-color);
     display: flex;
-    justify-content:  space-between;
 }
 
 header div {
@@ -33,7 +32,7 @@ header div {
 
 .headerTitle {
     margin: 0;
-    margin-left: 1em;
+    margin-left: 5vw;
 }
 
 .flexDown {
@@ -59,7 +58,6 @@ header div {
 }
 
 /*MAIN*/
-
 .fullpage {
     height: 100vh;
 }
