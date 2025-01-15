@@ -25,11 +25,6 @@ header {
     display: flex;
 }
 
-header div {
-    background-color: var(--navigation-color);
-    border-radius: 5px;
-}
-
 .headerTitle {
     margin: 0;
     margin-left: 5vw;
@@ -40,10 +35,12 @@ header div {
     flex-direction: column;
 }
 
-.topLock {
+.navTopLock {
     position: fixed;
     right: 1em;
     top: 1em;
+    background-color: var(--navigation-color);
+    border-radius: 5px;
 }
 
 .navLink {
