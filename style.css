@@ -42,10 +42,17 @@ header {
     border-radius: 5px;
 }
 
-.navLink {
+.nav {
+
+}
+
+.nav.title {
+
+}
+
+.nav.link {
    display: flex;
    text-decoration-line: none; 
-   text-decoration-color: none; 
    color: var(--link-color);
    min-height: 10mm;
    min-width: 10mm;
