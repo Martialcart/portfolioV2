@@ -43,20 +43,19 @@ header {
 }
 
 .nav {
-
-}
-
-.nav.title {
-
-}
-
-.nav.link {
    display: flex;
    text-decoration-line: none; 
    color: var(--link-color);
    min-height: 10mm;
    min-width: 10mm;
    justify-content: space-around;
+}
+
+.nav.title {
+    align-items: flex-start;
+}
+
+.nav.link {
    align-items: center;
 }
 
