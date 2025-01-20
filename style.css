@@ -62,4 +62,6 @@ header {
 
 .tool {
     width: 100%;
+    min-height: 12em;
+    opacity: 0.9;
 }
