@@ -59,3 +59,7 @@ header {
 .fullpage {
     height: 100vh;
 }
+
+.tool {
+    width: 100%;
+}
