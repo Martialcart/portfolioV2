@@ -1,3 +1,6 @@
 [submodule "tools/bmi"]
 	path = tools/bmi
 	url = https://github.com/Martialcart/bmi.git
+[submodule "tools/OptimalPause"]
+	path = tools/OptimalPause
+	url = https://github.com/Martialcart/OptimalPause.git
