@@ -66,4 +66,5 @@ header {
     width: 100%;
     min-height: 12em;
     opacity: 0.9;
+    border-radius: 1em;
 }
