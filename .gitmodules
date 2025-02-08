@@ -4,3 +4,6 @@
 [submodule "tools/OptimalPause"]
 	path = tools/OptimalPause
 	url = https://github.com/Martialcart/OptimalPause.git
+[submodule "about/Martialcart"]
+	path = about/Martialcart
+	url = https://github.com/Martialcart/Martialcart.git
