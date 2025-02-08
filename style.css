@@ -34,7 +34,7 @@ header {
     flex-direction: column;
 }
 
-.navTopLock {
+.navContainer {
     position: fixed;
     right: 1em;
     top: 1em;
@@ -67,4 +67,39 @@ header {
     min-height: 12em;
     /*opacity: 0.9;*/
     border-radius: 1em;
+}
+
+@media (min-width: 1000px) {
+    body {
+	background-color: blue;
+    }
+
+    header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    }
+
+    .hamburger {
+	display: none;
+    }
+
+    .hidden {
+	display: flex;
+	flex-direction: row;
+    }
+
+    .navContainer {
+	position: unset;
+	right: unset;
+	top: unset;
+	background-color: unset;
+	border-radius: unset;
+	z-index: unset;
+	opacity: unset;
+    }
+     .flexDown {
+	display:  hidden;
+	flex-direction: unset;
+    }   
 }
