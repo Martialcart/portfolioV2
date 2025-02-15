@@ -3,6 +3,6 @@ document.getElementById('hamburgerContainer').addEventListener( 'click', (e) => 
     const mainNavigation = document.getElementById('mainNavigation');
 
     //flex makes menu visible, so need to be turned of while hidden 
-    mainNavigation.classList.toggle('hidden');
-    mainNavigation.classList.toggle('flexDown');
+    mainNavigation.classList.toggle('hamburgerMenuShow');
+    mainNavigation.classList.toggle('burgerMenuHide');
 });

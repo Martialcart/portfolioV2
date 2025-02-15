@@ -14,7 +14,7 @@ body {
     color: var(--body-font-color);
 }
 
-.hidden{
+.burgerMenuHide{
    display: none; 
 }
 
@@ -29,7 +29,7 @@ header {
     margin-left: 5vw;
 }
 
-.flexDown {
+.hamburgerMenuShow {
     display: flex;
     flex-direction: column;
 }
@@ -70,10 +70,6 @@ header {
 }
 
 @media (min-width: 1000px) {
-    body {
-	background-color: blue;
-    }
-
     header {
 	display: flex;
 	flex-direction: row;
@@ -84,7 +80,7 @@ header {
 	display: none;
     }
 
-    .hidden {
+    .burgerMenuHide {
 	display: flex;
 	flex-direction: row;
     }
@@ -97,8 +93,9 @@ header {
 	border-radius: unset;
 	z-index: unset;
 	opacity: unset;
+	gap: 1em;
     }
-     .flexDown {
+     .hamburgerMenuShow {
 	display:  hidden;
 	flex-direction: unset;
     }   
