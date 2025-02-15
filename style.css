@@ -44,17 +44,13 @@ header {
     opacity: 0.8;
 }
 
-.nav {
+.navItem {
    display: flex;
    text-decoration-line: none; 
    color: var(--link-color);
    min-height: 10mm;
    min-width: 10mm;
    align-items: center;
-}
-
-.link {
-   justify-content: space-around;
 }
 
 /*MAIN*/
@@ -85,18 +81,11 @@ header {
 	flex-direction: row;
     }
 
-    .navContainer {
-	position: unset;
-	right: unset;
-	top: unset;
-	background-color: unset;
-	border-radius: unset;
-	z-index: unset;
-	opacity: unset;
-	gap: 1em;
-    }
      .hamburgerMenuShow {
-	display:  hidden;
 	flex-direction: unset;
     }   
+
+    nav {
+	gap: 1em;
+    }
 }
