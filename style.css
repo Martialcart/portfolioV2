@@ -88,4 +88,8 @@ header {
     nav {
 	gap: 1em;
     }
+
+    .tool {
+	width: 32vw;
+    }
 }
