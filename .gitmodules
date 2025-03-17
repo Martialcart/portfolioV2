@@ -7,3 +7,6 @@
 [submodule "about/Martialcart"]
 	path = about/Martialcart
 	url = https://github.com/Martialcart/Martialcart.git
+[submodule "tools/Barcode"]
+	path = tools/Barcode
+	url = https://github.com/Martialcart/Barcode.git
